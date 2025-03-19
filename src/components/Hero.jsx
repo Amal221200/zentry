@@ -98,7 +98,7 @@ const Hero = () => {
 
                     <video src={getVideoSrc(currentIndex)} loop muted className='absolute-center invisible z-20 object-cover object-center' ref={nextVideoRef} id='next-video' onLoadedData={handleVideoLoad} />
 
-                    <video src={getVideoSrc(currentIndex)} autoPlay={false} loop muted className='absolute left-0 right-0 size-full object-cover object-center' onLoadedData={handleVideoLoad} />
+                    <video src={getVideoSrc(currentIndex)} autoPlay loop muted className='absolute left-0 right-0 size-full object-cover object-center' onLoadedData={handleVideoLoad} />
                 </div>
 
                 <h1 className='special-font hero-heading absolute bottom-5 right-5 z-40 text-blue-75'>
